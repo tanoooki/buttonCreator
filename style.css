@@ -41,3 +41,11 @@ input {
     display: block;
     margin-bottom: .5rem;
 }
+
+.btn {
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8;
+}
