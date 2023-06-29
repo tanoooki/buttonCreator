@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background: #ccc;
+
 }
 
 label {
@@ -13,6 +14,15 @@ input {
     display: block;
 }
 
+.container {
+background-image: url("./background-g8d462846a_1920.jpg");
+height: 100vh;
+width: 100vw;
+background-position: cover;
+background-size: cover;
+
+}
+
 .button-creator {
     display: grid;
     gap: 30px;
@@ -23,7 +33,7 @@ input {
 #controles {
     font-family: 'IMB Plex Mono', monospace;
     font-size: .875rem;
-    background: #eee;
+    background: rgb(238, 238, 238,0.7);
     padding: 1rem;
     border-radius: 4px;
     box-shadow: 2px 2px 2px 0 rgba(0,0,0,.1);
